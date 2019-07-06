@@ -1,5 +1,5 @@
 const assert = require('assert');
-const warmup = require('./src/index.js');
+const warmup = require('../src/warmup.js');
 
 describe('warmup', () => {
   it('warm cold', () => {
